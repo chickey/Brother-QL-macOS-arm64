@@ -39,6 +39,24 @@ not all been printed on real hardware. Please open an issue with what works
 | DK11209   | DK-11209           | 62mm × 29mm die-cut   |
 | DK11202   | DK-11202           | 62mm × 100mm die-cut  |
 
+For a 62mm continuous roll (DK-22205 / DK-22206) the QL-800 PPD also offers
+fixed-length sizes that are printed as continuous tape and cut after the
+label, matching the sizes of Brother's original Intel driver:
+
+| PPD code      | Label                         | Size           |
+|---------------|-------------------------------|----------------|
+| C62x29        | 62mm Continuous, 29mm cut     | 62mm × 29mm    |
+| C62x100       | 62mm Continuous, 100mm cut    | 62mm × 100mm   |
+| CSmallAddress | Small Address Label           | 62mm × 29mm    |
+| CShipping     | Shipping Label                | 62mm × 100mm   |
+| CNameBadge    | Name Badge Label              | 62mm × 100mm   |
+| CBinder5cm    | Binder 5 cm Spine             | 62mm × 209mm   |
+| CPostage184   | Postage Label                 | 62mm × 184mm   |
+| CPostage209   | Postage Label                 | 62mm × 209mm   |
+
+Custom paper sizes with a width of 62mm (any length up to 1m) are printed
+the same way. Only the `DK…` sizes are sent to the printer as die-cut labels.
+
 ## Requirements
 
 - macOS on Apple Silicon (M1 or later)

@@ -164,7 +164,35 @@
 
 *% --- Die-cut: DK-11202 62mm x 100mm ---
 *PaperDimension DK11202/DK-11202 (62x100mm): "175.68 283.44"
+*PaperDimension C62x29/62mm Continuous, 29mm cut: "175.68 81.84"
+*PaperDimension C62x100/62mm Continuous, 100mm cut: "175.68 283.46"
+*PaperDimension CSmallAddress/Small Address Label (62x29mm, continuous): "175.68 81.84"
+*PaperDimension CShipping/Shipping Label (62x100mm, continuous): "175.68 282.96"
+*PaperDimension CNameBadge/Name Badge Label (62x100mm, continuous): "175.68 282.96"
+*PaperDimension CBinder5cm/Binder 5 cm Spine (62x209mm, continuous): "175.68 592.32"
+*PaperDimension CPostage184/Postage Label 62x184mm (continuous): "175.68 521.28"
+*PaperDimension CPostage209/Postage Label 62x209mm (continuous): "175.68 593.28"
 *ImageableArea  DK11202/DK-11202 (62x100mm): "0 0 175.68 283.44"
+*ImageableArea  C62x29/62mm Continuous, 29mm cut: "0 0 175.68 81.84"
+*ImageableArea  C62x100/62mm Continuous, 100mm cut: "0 0 175.68 283.46"
+*ImageableArea  CSmallAddress/Small Address Label (62x29mm, continuous): "0 0 175.68 81.84"
+*ImageableArea  CShipping/Shipping Label (62x100mm, continuous): "0 0 175.68 282.96"
+*ImageableArea  CNameBadge/Name Badge Label (62x100mm, continuous): "0 0 175.68 282.96"
+*ImageableArea  CBinder5cm/Binder 5 cm Spine (62x209mm, continuous): "0 0 175.68 592.32"
+*ImageableArea  CPostage184/Postage Label 62x184mm (continuous): "0 0 175.68 521.28"
+*ImageableArea  CPostage209/Postage Label 62x209mm (continuous): "0 0 175.68 593.28"
+
+*% Custom sizes: fixed 62mm width, free length (continuous roll)
+*VariablePaperSize: True
+*MaxMediaWidth: "175.68"
+*MaxMediaHeight: "2834.65"
+*HWMargins: 0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 175.68 175.68
+*ParamCustomPageSize Height: 2 points 36 2834.65
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
 
 *OpenUI *PageSize/Label Size: PickOne
 *OrderDependency: 30 AnySetup *PageSize
@@ -173,6 +201,14 @@
 *PageSize DK22205/DK-22205 (62mm Continuous): "<</PageSize[175.68 567]/ImagingBBox null>>setpagedevice"
 *PageSize DK11209/DK-11209 (62x29mm): "<</PageSize[175.68 82.08]/ImagingBBox null>>setpagedevice"
 *PageSize DK11202/DK-11202 (62x100mm): "<</PageSize[175.68 283.44]/ImagingBBox null>>setpagedevice"
+*PageSize C62x29/62mm Continuous, 29mm cut: "<</PageSize[175.68 81.84]/ImagingBBox null>>setpagedevice"
+*PageSize C62x100/62mm Continuous, 100mm cut: "<</PageSize[175.68 283.46]/ImagingBBox null>>setpagedevice"
+*PageSize CSmallAddress/Small Address Label (62x29mm, continuous): "<</PageSize[175.68 81.84]/ImagingBBox null>>setpagedevice"
+*PageSize CShipping/Shipping Label (62x100mm, continuous): "<</PageSize[175.68 282.96]/ImagingBBox null>>setpagedevice"
+*PageSize CNameBadge/Name Badge Label (62x100mm, continuous): "<</PageSize[175.68 282.96]/ImagingBBox null>>setpagedevice"
+*PageSize CBinder5cm/Binder 5 cm Spine (62x209mm, continuous): "<</PageSize[175.68 592.32]/ImagingBBox null>>setpagedevice"
+*PageSize CPostage184/Postage Label 62x184mm (continuous): "<</PageSize[175.68 521.28]/ImagingBBox null>>setpagedevice"
+*PageSize CPostage209/Postage Label 62x209mm (continuous): "<</PageSize[175.68 593.28]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageSize
 
 *OpenUI *PageRegion: PickOne
@@ -182,6 +218,14 @@
 *PageRegion DK22205/DK-22205 (62mm Continuous): "<</PageSize[175.68 567]/ImagingBBox null>>setpagedevice"
 *PageRegion DK11209/DK-11209 (62x29mm): "<</PageSize[175.68 82.08]/ImagingBBox null>>setpagedevice"
 *PageRegion DK11202/DK-11202 (62x100mm): "<</PageSize[175.68 283.44]/ImagingBBox null>>setpagedevice"
+*PageRegion C62x29/62mm Continuous, 29mm cut: "<</PageSize[175.68 81.84]/ImagingBBox null>>setpagedevice"
+*PageRegion C62x100/62mm Continuous, 100mm cut: "<</PageSize[175.68 283.46]/ImagingBBox null>>setpagedevice"
+*PageRegion CSmallAddress/Small Address Label (62x29mm, continuous): "<</PageSize[175.68 81.84]/ImagingBBox null>>setpagedevice"
+*PageRegion CShipping/Shipping Label (62x100mm, continuous): "<</PageSize[175.68 282.96]/ImagingBBox null>>setpagedevice"
+*PageRegion CNameBadge/Name Badge Label (62x100mm, continuous): "<</PageSize[175.68 282.96]/ImagingBBox null>>setpagedevice"
+*PageRegion CBinder5cm/Binder 5 cm Spine (62x209mm, continuous): "<</PageSize[175.68 592.32]/ImagingBBox null>>setpagedevice"
+*PageRegion CPostage184/Postage Label 62x184mm (continuous): "<</PageSize[175.68 521.28]/ImagingBBox null>>setpagedevice"
+*PageRegion CPostage209/Postage Label 62x209mm (continuous): "<</PageSize[175.68 593.28]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageRegion
 
 *% ============================================================
